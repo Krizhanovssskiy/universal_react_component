@@ -1,0 +1,37 @@
+.btn-group {
+}
+
+.btn-group > * {
+    margin: 0;
+    border-radius: 0;
+}
+
+.btn-group :first-child {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn-group :last-child {
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+ }
+
+.btn-group.vertical :first-child {
+    border-radius: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.btn-group.vertical :last-child {
+    border-radius: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
