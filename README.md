@@ -1,3 +1,26 @@
+1. Component Button
+props: 
+    children: node,
+    className: string,
+    onClick: func,
+    disabled: bool,
+    active: bool
+2. Component ButtonGroup
+props:
+    children: node,
+    vertical: bool,
+    className: string,
+3.Component Icon
+props
+    name: string,
+    onClick: func,
+    disabled: bool,
+    className: string,
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

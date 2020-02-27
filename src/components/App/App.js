@@ -4,6 +4,7 @@ import React from 'react';
 import Buttons from '../Button';
 import ButtonGroup from '../ButtonGroup';
 import Icon from "../Icon";
+import ImageBlock from '../Image';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Buttons />
       <ButtonGroup />
       <Icon />
+      <ImageBlock/>
     </div>
   );
 }
